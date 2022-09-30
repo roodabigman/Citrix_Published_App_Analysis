@@ -16,6 +16,7 @@ How to run:
 ##############################################################
 what's new:
 version 0.7:
+
 	- added new line before bearer token refresh output to prevent printing to progress bar line
 	- included function for estimating time that takes throttling into account after the first ~100,000 sessions
 	- change end time, if not specified, to be datetime.now() instead of ne null - to prevent the amount of sessions from increasing while the data is being collected
