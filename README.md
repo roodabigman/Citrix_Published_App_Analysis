@@ -27,12 +27,14 @@ version 0.7:
 
 
 Version 0.6: 
+
 	- Bearer token refresh logic for large data collection processes that take more than 1 hour to run (bearer tokens have 60 minute lifetimes)
 	- new logic that allows selection of a new start date and end date if the amount of data to be collected based on enteres start / end is
 	  larger than desired (version 0.5 would quit and force you to re-run the program)
 
 
 version 0.5:
+
 	- exception handling for cases where application details are null
 	- enhanced console output when errors are encountered
 	- retry mechanism for API calls, each call will now retry 4 times if needed, with a 2 second pause between each attempt
