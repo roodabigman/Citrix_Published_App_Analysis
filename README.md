@@ -14,7 +14,9 @@ How to run:
 
 
 ##############################################################
+
 what's new:
+
 version 0.7:
 
 	- added new line before bearer token refresh output to prevent printing to progress bar line
