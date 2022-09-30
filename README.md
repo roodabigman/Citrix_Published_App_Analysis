@@ -25,10 +25,12 @@ version 0.7:
 	- changed duration calculation to be [h]:mm:ss string output so that excel does not interpret as calendar dates
 	- changed progress bar library to use tqdm.auto to draw bar more consistently in different windows
 
+
 Version 0.6: 
 	- Bearer token refresh logic for large data collection processes that take more than 1 hour to run (bearer tokens have 60 minute lifetimes)
 	- new logic that allows selection of a new start date and end date if the amount of data to be collected based on enteres start / end is
 	  larger than desired (version 0.5 would quit and force you to re-run the program)
+
 
 version 0.5:
 	- exception handling for cases where application details are null
