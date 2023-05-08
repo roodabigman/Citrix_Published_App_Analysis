@@ -1,4 +1,4 @@
-# citrix-monitor-reporting
+# Published Application Analysis
 programs for collecting custom reporting from the Monitor DB for Citrix DaaS sites
 
 MONITOR COLLECTION EXE README
